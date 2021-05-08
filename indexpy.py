@@ -4,4 +4,4 @@ x = 0
 print("Your password is:")
 for x in range(15):
     password = random.choice(charcter)
-    print(password)
+    print(password,end="")
