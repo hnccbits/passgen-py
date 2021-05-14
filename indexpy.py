@@ -6,44 +6,47 @@ import pyperclip
 
 def passgenerator(platform,passlen,lower,upper,digit,special):
 
-    c1 = string.ascii_uppercase
-    c2 = string.ascii_lowercase
-    c3 = string.digits
-    c4 = string.punctuation
+    if passlen >= 15:
+        c1 = string.ascii_uppercase
+        c2 = string.ascii_lowercase
+        c3 = string.digits
+        c4 = string.punctuation
 
-    s =[]
+        s =[]
 
-    s.extend(list(c1))
-    s.extend(list(c2))
-    s.extend(list(c3))
-    s.extend(list(c4))
+        s.extend(list(c1))
+        s.extend(list(c2))
+        s.extend(list(c3))
+        s.extend(list(c4))
 
-    random.shuffle(s)
+        random.shuffle(s)
 
-    c =[]
+        c =[]
 
-    d1 = "".join(random.sample(c1, upper))
-    d2 = "".join(random.sample(c2, lower))
-    d3 = "".join(random.sample(c3, digit))
-    d4 = "".join(random.sample(c4, special))
+        d1 = "".join(random.sample(c1, upper))
+        d2 = "".join(random.sample(c2, lower))
+        d3 = "".join(random.sample(c3, digit))
+        d4 = "".join(random.sample(c4, special))
     
-    c.extend(list(d1))
-    c.extend(list(d2))
-    c.extend(list(d3))
-    c.extend(list(d4))
+        c.extend(list(d1))
+        c.extend(list(d2))
+        c.extend(list(d3))
+        c.extend(list(d4))
 
-    random.shuffle(c)
+        random.shuffle(c)
 
-    c.extend(list(s))
+        c.extend(list(s))
 
-    ps = c[:passlen]
+        ps = c[:passlen]
 
-    password = "".join(ps)
+        password = "".join(ps)
 
-    pyperclip.copy(password)
-    print(platform," :- ")
-    return password
-
+        pyperclip.copy(password)
+        print(platform," :- ")
+        return password
+    
+    else:
+        return "For secure password,Password length should be greater than or eqaul to 15."
 
 
 if __name__=='__main__':
@@ -58,4 +61,4 @@ if __name__=='__main__':
 
     args = parser.parse_args()
     sys.stdout.write(str(passgenerator(args.platform,args.passlen,args.lower,args.upper,args.digit,args.special)))
-
+    
