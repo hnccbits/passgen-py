@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: PASSGENERATOR
+Version: 0.0.1
+Summary: A Password generator
+Home-page: UNKNOWN
+Author: Abhishek Anand
+Author-email: UNKNOWN
+License: MIT
+Description: THIS IS A PASSWORD GENERATOR PYHTON PROGRAM.
+        THESE ARE SOME OF THE OF THE COMMANDS WHICH YOU MUST KNOW
+        pl :- for password lenght you want
+        pltf :- name of the website for which you are setting password
+        lw :- to set the minimum length of lower case character
+        up :- to set the minimum length of upper case character
+        dg :- to set length of digit
+        sp :- to set special character length
+        
+        function you need to call is passwordgenerator(pltf,pl,lw,up,dg,sp)
+        
+        
+        Change log
+        ==========
+        
+        0.0.1(17/5/2021)
+        ----------------
+        - Frist Release
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

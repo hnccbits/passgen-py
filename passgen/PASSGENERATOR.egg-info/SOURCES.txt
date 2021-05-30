@@ -1,0 +1,11 @@
+CHANGELOG.txt
+MANIFEST.in
+licence.txt
+readme.txt
+setup.py
+PASSGENERATOR.egg-info/PKG-INFO
+PASSGENERATOR.egg-info/SOURCES.txt
+PASSGENERATOR.egg-info/dependency_links.txt
+PASSGENERATOR.egg-info/requires.txt
+PASSGENERATOR.egg-info/top_level.txt
+passgenpackage/__init__.py
