@@ -2,5 +2,5 @@
 
 ## CONTENT
 
- - CLI TOOL [click here](./password_generator_project/CLI-tool)
- - LIBRARY [click here](./password_generator_project/library)
+ - CLI TOOL 
+ - LIBRARY 
