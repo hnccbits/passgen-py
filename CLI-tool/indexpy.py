@@ -3,7 +3,7 @@ import argparse
 import string
 import pyperclip
 
-def passgenerator(platform,passlen,lower,upper,digit,special):
+def passgenerator(website,passlen,lower,upper,digit,special):
 
     if passlen >= 15:
         c1 = string.ascii_uppercase
@@ -41,7 +41,7 @@ def passgenerator(platform,passlen,lower,upper,digit,special):
         password = "".join(ps)
 
         pyperclip.copy(password)
-        print(platform," :- ",password)
+        print(website," :- ",password)
 
     else:
         return "For secure password,Password length should be greater than or eqaul to 15."
@@ -51,7 +51,7 @@ def passgenerator(platform,passlen,lower,upper,digit,special):
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-pl','--passlen', type = int, help ="password length", default=15)
-parser.add_argument('-w','--platform', type = str, help = "website name", default='Facebook')
+parser.add_argument('-w','--website', type = str, help = "website name", default='Facebook')
 parser.add_argument('-lw','--lower', type = int, help = "Number of lower case characters", default=4)
 parser.add_argument('-up','--upper', type = int, help = "Number of upper case characters", default=3)
 parser.add_argument('-d','--digit', type = int, help = "Number of digits", default=5)
@@ -62,11 +62,11 @@ args = parser.parse_args()
 if __name__=='__main__':
 
     if args.lower == 4 and args.upper == 3 and args.digit == 5 and args.special == 3:
-        passgenerator(args.platform,args.passlen,args.lower,args.upper,args.digit,args.special)
+        passgenerator(args.website,args.passlen,args.lower,args.upper,args.digit,args.special)
 
     else:
         if args.passlen == args.lower + args.upper + args.digit + args.special or args.passlen > args.lower + args.upper + args.digit + args.special:
-            passgenerator(args.platform,args.passlen,args.lower,args.upper,args.digit,args.special)
+            passgenerator(args.website,args.passlen,args.lower,args.upper,args.digit,args.special)
 
         else:
             print("password lenght should be greater than or equal to the sum of numbers of the different characters you want")    
