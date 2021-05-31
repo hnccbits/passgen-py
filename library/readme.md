@@ -1,6 +1,6 @@
 # This Library is useful to create Passwords, copy them in clipboard
 
-[](password_generator_project/Abhishek Anand/library/lib.png)
+[](./library/lib.png)
 
 ## About the Library
 
