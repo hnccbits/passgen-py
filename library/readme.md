@@ -20,7 +20,7 @@ import passgenpackage
 ## How to use the module
 
 import the module as desribed above.
-use it as a function by passgen.passgen(w, pl, lw, up, d, s)
+use it as a function by passgenpackage.passgenerator(w, pl, lw, up, d, s)
 
 - w is used for giving website name
 - lw is for number of lowercase chaaracters.
