@@ -1,6 +1,6 @@
 # This CLI tool is used to generate passwords and copy it to the clipboard
 
-[](CLI-tool/cli.png)
+[](https://github.com/royabhi00/passgen-py/blob/main/CLI-tool/cli.png)
 
 ## REQUIRED MODULES
 
