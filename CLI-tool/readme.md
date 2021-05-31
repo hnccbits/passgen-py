@@ -1,6 +1,6 @@
 # This CLI tool is used to generate passwords and copy it to the clipboard
 
-[](./password_generator_project/Abhishek Anand/CLI-tool/cli.png)
+[](CLI-tool/cli.png)
 
 ## REQUIRED MODULES
 
