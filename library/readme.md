@@ -17,6 +17,7 @@ pip3 install PASSGENERATOR-0.0.1-py3-none-any.whl
 ```python
 import passgenpackage
 ```
+
 ## How to use the module
 
 import the module as desribed above.
