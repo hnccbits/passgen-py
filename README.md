@@ -6,4 +6,9 @@ This tool will help to generate random password
 1. CLI-tool
 2. lib
 
+# Features
+. uppercase
+.lowercase
+.digits
+.punctuation
  
