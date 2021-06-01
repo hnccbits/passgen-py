@@ -1,5 +1,6 @@
 # passgen-py
-This is a CLI-based password generator.
+# Random Password Generator
+This tool will help to generate random password 
 
 # CONTENT
 1. CLI-tool
