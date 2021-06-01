@@ -7,8 +7,8 @@ This tool will help to generate random password
 2. lib
 
 # Features
-. uppercase
-.lowercase
-.digits
-.punctuation
+1. uppercase
+2. lowercase
+3. digits
+4. punctuation
  
