@@ -2,6 +2,7 @@
 This is a CLI-based password generator.
 
 # CONTENT
-CLI-tool
-lib
+1. CLI-tool
+2. lib
+
  
