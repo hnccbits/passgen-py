@@ -8,11 +8,11 @@ This tool will help to generate password
 # CLI-tool
 This cli-tool generates a password for your services and copy it to the clipboard. 
 
-# Installing modules
+# Installing module
   pip install pyperclip
 	pip install argparse
   
-# HOW to use this TOOL
+# How to use this tool
   . colone the repository
      $ git clone https://github.com/ritumona01/passgen-py.git
      
