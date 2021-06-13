@@ -64,6 +64,11 @@ pyinstaller indexpy.py
 
 This is a library for the random password generation.
 
+## Locating the module
+```python
+cd passgen-py/ABHISHEK ANAND/library/passgenerator/dist
+```
+
 
 ## Installing the module
 
@@ -79,10 +84,20 @@ import passgenpackage
 ## How to use the module
 
 import the module as desribed above.
-use it as a function by passgenpackage.passgenerator(w, pl, lw, up, d, s)
+use it as a function by 
+```python
+passgenpackage.passgenerator(w, pl, lw, up, d, s)
+```
 
-- w :- is used for giving website name
-- lw :- is for number of lowercase chaaracters.
-- up :- is for number of uppercase chaaracters.
-- n :- is for number of numerals.
-- s :- is for number of special chaaracters.
+ # 
+ 
+| Arguments            |       Description                                                                                  |
+| ---------------------|----------------------------------------------------------------------------------------------------| 
+|`- w`   | is used for giving website name|
+|`-pl`   | is used to give length of the password you want|
+|`- lw`  | is for number of lowercase chaaracters.|
+|`- up`  | is for number of uppercase chaaracters.|
+|`- n`   |is for number of numerals.|
+|`- s`   |is for number of special chaaracters|
+
+#
