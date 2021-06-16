@@ -1,8 +1,6 @@
 # RANDOM PASSWORD GENERATOR
 This tool will help to generate password
 
-![:/Users/ASUS/Pictures/Screenshots/IMG_20210603_062014.jpg]
-
 # CONTENT
 1. CLI-tool
 2. lib
