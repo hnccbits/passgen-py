@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: passgen
+Version: 0.1
+Summary: password generator
+Home-page: UNKNOWN
+Author: Ritu
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: This is a cli based password generator which generates random password
+Platform: UNKNOWN
